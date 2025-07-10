@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Staff - Crimson Moon</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <script defer src="js/script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- 🌒 Barra de navegación -->
+  <header class="navbar">
+    <div class="navbar-logo">
+      <img src="assets/logo.png" alt="Logo Crimson Moon" />
+    </div>
+    <nav class="navbar-links">
+      <a href="index.html">Inicio</a>
+      <a href="staff.html">Staff</a>
+      <a href="contacto.html">Contáctanos</a>
+      <a href="quienes-somos.html">Quiénes somos</a>
+      <a href="instalaciones.html">Instalaciones</a>
+    </nav>
+  </header>
+
+  <!-- 🌕 Contenido principal -->
+  <div class="container">
+    <h1 class="titulo">Staff de Crimson Moon</h1>
+
+    <div class="departamentos">
+
+      <!-- 🔴 Desarrollo Organizacional -->
+      <div class="departamento-card" onclick="toggleIntegrantes('desarrollo')">
+        <img src="assets/departamentos/desarrollo.jpg" alt="Desarrollo Organizacional" />
+        <h2>Desarrollo Organizacional</h2>
+      </div>
+      <div class="integrantes" id="desarrollo">
+        <div class="card-integrante">
+          <img src="assets/fotos/clara.jpg" alt="Clara">
+          <h3>Clara</h3>
+          <p>Analista de Feedback</p>
+        </div>
+        <div class="card-integrante">
+          <img src="assets/fotos/elena.jpg" alt="Elena">
+          <h3>Elena</h3>
+          <p>Especialista en Procesos</p>
+        </div>
+        <div class="card-integrante">
+          <img src="assets/fotos/ivanna.jpg" alt="Ivanna">
+          <h3>Ivanna</h3>
+          <p>Cultura Organizacional</p>
+        </div>
+      </div>
+
+      <!-- 🔴 Marketing -->
+      <div class="departamento-card" onclick="toggleIntegrantes('marketing')">
+        <img src="assets/departamentos/marketing.jpg" alt="Marketing" />
+        <h2>Marketing & Comunicación</h2>
+      </div>
+      <div class="integrantes" id="marketing">
+        <div class="card-integrante">
+          <img src="assets/fotos/pamela.jpg" alt="Pamela">
+          <h3>Pamela</h3>
+          <p>Responsable de Marketing</p>
+        </div>
+        <div class="card-integrante">
+          <img src="assets/fotos/isabela.jpg" alt="Isabela">
+          <h3>Isabela</h3>
+          <p>Automatización Creativa</p>
+        </div>
+      </div>
+
+      <!-- 🔴 Tecnología -->
+      <div class="departamento-card" onclick="toggleIntegrantes('tecnologia')">
+        <img src="assets/departamentos/tecnologia.jpg" alt="Tecnología" />
+        <h2>Innovación & Tecnología</h2>
+      </div>
+      <div class="integrantes" id="tecnologia">
+        <div class="card-integrante">
+          <img src="assets/fotos/zara.jpg" alt="Zara">
+          <h3>Zara</h3>
+          <p>Líder de Innovación</p>
+        </div>
+        <div class="card-integrante">
+          <img src="assets/fotos/nadya.jpg" alt="Nadya">
+          <h3>Nadya</h3>
+          <p>Desarrolladora de Software</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <footer class="footer">
+  <div class="footer-contenido">
+     <p class="footer-frase">"Donde el poder y la elegancia se encuentran bajo la luna roja."</p>
+    <div class="footer-redes">
+  <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+  <a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+  <a href="#"><i class="fab fa-x-twitter"></i> X</a>
+</div>
+    <p class="footer-copy">© 2025 Crimson Moon. Todos los derechos reservados.</p>
+  </div>
+</footer>
+</body>
+</html>
+

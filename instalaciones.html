@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Instalaciones - Crimson Moon</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <script defer src="js/instalaciones.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- 🌒 Navbar -->
+  <header class="navbar">
+    <div class="navbar-logo">
+      <img src="assets/logo.png" alt="Logo Crimson Moon" />
+    </div>
+    <nav class="navbar-links">
+      <a href="index.html">Inicio</a>
+      <a href="staff.html">Staff</a>
+      <a href="contacto.html">Contáctanos</a>
+      <a href="quienes-somos.html">Quiénes somos</a>
+      <a href="instalaciones.html">Instalaciones</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1 class="titulo">Nuestras Instalaciones</h1>
+    <p class="frase">Espacios creados para el poder, la belleza y la perfección interna.</p>
+
+    <div class="departamentos">
+
+      <!-- 🧘 Bienestar -->
+      <div class="departamento-card" onclick="toggleInstalaciones('bienestar')">
+        <img src="assets/instalaciones/bienestar.jpg" alt="Bienestar Empresarial" />
+        <h2>Área de Bienestar</h2>
+      </div>
+      <div class="integrantes" id="bienestar">
+        <div class="card-integrante">
+          <img src="assets/instalaciones/spa.jpg" alt="Spa">
+          <h3>Spa & Relax</h3>
+        </div>
+        <div class="card-integrante">
+          <img src="assets/instalaciones/comedor.jpg" alt="Comedor saludable">
+          <h3>Comedor saludable</h3>
+        </div>
+        <div class="card-integrante">
+          <img src="assets/instalaciones/meditacion.jpg" alt="Meditación">
+          <h3>Sala de meditación</h3>
+        </div>
+        <div class="card-integrante">
+          <img src="assets/instalaciones/consultorio.jpg" alt="Psicología">
+          <h3>Consultorios psicológicos</h3>
+        </div>
+      </div>
+
+      <!-- 🏋️ Entrenamiento -->
+      <div class="departamento-card" onclick="toggleInstalaciones('entrenamiento')">
+        <img src="assets/instalaciones/entrenamiento.jpg" alt="Entrenamiento" />
+        <h2>Área de Entrenamiento</h2>
+      </div>
+      <div class="integrantes" id="entrenamiento">
+        <div class="card-integrante">
+          <img src="assets/instalaciones/gimnasio.jpg" alt="Gimnasio">
+          <h3>Gimnasio elite</h3>
+        </div>
+        <div class="card-integrante">
+          <img src="assets/instalaciones/dojo.jpg" alt="Dojo">
+          <h3>Dojo de defensa personal</h3>
+        </div>
+        <div class="card-integrante">
+          <img src="assets/instalaciones/pileta.jpg" alt="Pileta">
+          <h3>Pileta climatizada</h3>
+        </div>
+      </div>
+
+      <!-- 🛏️ Privado -->
+      <div class="departamento-card" onclick="toggleInstalaciones('privado')">
+        <img src="assets/instalaciones/suite.jpg" alt="Suite" />
+        <h2>Área Privada</h2>
+      </div>
+      <div class="integrantes" id="privado">
+        <div class="card-integrante">
+          <img src="assets/instalaciones/suite.jpg" alt="Suite Luna y Lucas">
+          <h3>Suite privada de Luna y Lucas 🔒</h3>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <footer class="footer">
+  <div class="footer-contenido">
+     <p class="footer-frase">"Donde el poder y la elegancia se encuentran bajo la luna roja."</p>
+   <div class="footer-redes">
+  <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+  <a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+  <a href="#"><i class="fab fa-x-twitter"></i> X</a>
+</div>
+    <p class="footer-copy">© 2025 Crimson Moon. Todos los derechos reservados.</p>
+  </div>
+</footer>
+</body>
+</html>
